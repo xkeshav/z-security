@@ -1,0 +1,29 @@
+
+# config and linting files
+
+.editorconfig
+.eslintrc
+.jshintrc
+.lesshintrc
+.prettierrc
+tslint.json
+
+
+# production
+/build/*
+
+# misc
+.DS_Store
+**/.DS_Store
+.env.local
+Thumbs.db
+desktop.ini
+
+# IDE
+*.sublime-*
+*.code-workspace
+/.idea
+.vscode/*
+*~
+
+**/log/

@@ -1,0 +1,35 @@
+{
+    "name": "Zero",
+    "description": "Z Security Extension",
+    "version": "0.0",
+    "manifest_version": 2,
+    "icons": {
+        "16": "icons/icon_16.png",
+        "24": "icons/icon_24.png",
+        "32": "icons/icon_32.png",
+        "64": "icons/icon_64.png"
+    },
+    "browser_action": {
+        "default_icon": "icons/icon_32.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "css": ["css/style.css"],
+            "js": ["js/content_script.js"]
+        }
+    ],
+    "background": {
+        "page": "background.html",
+        "persistent": true
+    },
+    "offline_enabled": true,
+    "web_accessible_resources": ["icons/header-logo.svg", "config"],
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "http://*/*",
+        "https://*/*",
+        "webNavigation"
+    ]
+}

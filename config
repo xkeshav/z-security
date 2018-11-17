@@ -1,0 +1,10 @@
+{
+    "WHOIS_API": {
+        "KEY": "atxxxt3",
+        "ENDPOINT": "https://www.whoisxmlapi.com/whoisserver/WhoisService"
+    },
+    "PHISHTANK_API": {
+        "KEY": "6xcxcx576883",
+        "ENDPOINT": "https://checkurl.phishtank.com/checkurl/"
+    }
+}
